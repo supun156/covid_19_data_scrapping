@@ -1,11 +1,12 @@
-import numpy as np
-import pandas as pd
-import requests
-import bs4
-import lxml.etree as xml
-import re
-import json
-import datetime
+# Importing necessary libraries for the script
+import numpy as np  # Library for numerical operations
+import pandas as pd  # Library for data manipulation and analysis
+import requests  # Library for making HTTP requests
+import bs4  # Beautiful Soup library for parsing HTML and XML documents
+import lxml.etree as xml  # Library for working with XML data
+import re  # Library for regular expressions
+import json  # Library for working with JSON data
+import datetime  # Library for working with date and time
 
 def generate_data_set(chart_data_text):
     """
