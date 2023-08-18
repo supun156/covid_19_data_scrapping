@@ -39,7 +39,7 @@ git clone https://github.com/supun156/covid_19_data_scrapping.git
 2. Navigate to the repository directory:
 
 ```bash
-cd covid19-data-scraper
+cd covid_19_data_scrapping
 ```
 
 3. Run the script:
