@@ -24,29 +24,29 @@ Before running the script, make sure you have the following prerequisites:
 
 You can install the required packages using the following command:
 
-\`\`\`bash
+```bash
 pip install numpy pandas requests beautifulsoup4
-\`\`\`
+```
 
 ### Usage
 
 1. Clone this repository to your local machine:
 
-\`\`\`bash
+```bash
 git clone https://github.com/your-username/covid19-data-scraper.git
-\`\`\`
+```
 
 2. Navigate to the repository directory:
 
-\`\`\`bash
+```bash
 cd covid19-data-scraper
-\`\`\`
+```
 
 3. Run the script:
 
-\`\`\`bash
+```bash
 python scraper.py
-\`\`\`
+```
 
 The script will extract COVID-19 data for various countries from the Worldometers website and generate a JSON file named \`covid19.json\` containing the data.
 
@@ -56,7 +56,7 @@ The generated JSON file \`covid19.json\` will contain a dictionary with country 
 
 Here's an example structure of the JSON file:
 
-\`\`\`json
+```json
 {
   "usa": {
     "cases_daily": [
@@ -75,7 +75,7 @@ Here's an example structure of the JSON file:
   },
   ...
 }
-\`\`\`
+```
 
 ## Contributing
 
